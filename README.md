@@ -28,7 +28,12 @@ Website for people who wants to create their own coffee
 </p>
 <p> Products
   <ul>
-    <li>Pre-Made Coffees (4-6 Signature Blends)</li>
+    <li>Pre-Made Coffees
+      <ul>
+        <li>Caffeinated (4 Signature Blends)</li>
+        <li>Decaffeinated (3 Signature Blends)</li>
+      </ul>
+    </li>
     <li>Cream (1 Signature Cream)</li>
     <li>Sugar (2 Signature Sugars)</li>
     <li>Mug (1 Signature Mug)</li>
