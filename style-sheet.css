@@ -1,0 +1,76 @@
+@font-face {
+  font-family: 'helvetica-neue-thin';
+  src: url('fonts/helvetica-neue-thin.otf');
+}
+
+@font-face {
+  font-family: 'helvetica-neue-ultra-thin2';
+  src: url('fonts/helvetica-neue-ultra-thin2.otf');
+}
+
+@font-face {
+  font-family: 'helvetica-light';
+  src: url('fonts/helvetica-light.ttf');
+}
+
+body {
+  font-size: 12px;
+  font-family: helvetica-neue-ultra-thin2, sans-serif;
+}
+
+.container {
+  padding: 15px 0 0 0;
+}
+
+.grey {
+  background-color: rgb(162,174,191);
+  width: 100px;
+  height:100px;
+}
+
+.dark-grey {
+  background-color: rgb(61,64,70);
+  width: 100px;
+  height:100px;
+}
+
+.orange {
+  background-color: rgb(255,87,0);
+  width: 100px;
+  height: 100px;
+}
+
+h3 {
+  font-family: helvetica-light, sans-serif;
+  color: #000;
+  font-size: 24px;
+  text-transform: uppercase;
+}
+
+h4 {
+  color: rgb(61,64,70);
+  font-size: 22px;
+}
+
+h4.subtitle {
+  font-family: helvetica-neue-thin, sans-serif;
+  color: rgb(162,174,191);
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+h4.subtext {
+  color: rgb(61,64,70);
+  font-size: 16px;
+}
+
+h4.link {
+  color: rgb(255,87,0);
+  font-size: 16px;
+  text-decoration: underline;
+}
+
+.pronounce {
+  color: #000;
+  font-size: 16px;
+}

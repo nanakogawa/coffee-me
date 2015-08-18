@@ -1,0 +1,77 @@
+@font-face {
+  font-family: 'helvetica-neue-thin';
+  src: url('fonts/helvetica-neue-thin.otf');
+}
+
+@font-face {
+  font-family: 'helvetica-neue-ultra-thin2';
+  src: url('fonts/helvetica-neue-ultra-thin2.otf');
+}
+
+@font-face {
+  font-family: 'helvetica-light';
+  src: url('fonts/helvetica-light.ttf');
+}
+
+body {
+  font-family: helvetica-neue-ultra-thin2, sans-serif;
+  font-size: 14px;
+}
+
+a:hover {
+    color: rgb(255,87,0) !important;
+}
+
+.logo,
+h3 {
+  margin: 15px 0;
+}
+
+span.coffee {
+  color: #000;
+}
+
+span.me {
+  color: rgb(255,87,0);
+  font-weight: bold;
+}
+
+h3 {
+  font-family: helvetica-neue-ultra-thin2, sans-serif;
+  font-size: 24px;
+}
+
+.navbar-default {
+  background-color: #fff;
+}
+
+.nav {
+  font-family: helvetica-neue-thin, sans-serif;
+  font-size: 15px;
+  text-transform: uppercase;
+  text-align: center;
+  display: inline-block;
+  float: none;
+
+}
+
+a {
+  color: rgb(162, 174, 191) !important;
+}
+
+li.tabs {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+a,
+.navbar-brand {
+
+}
+
+#top-nav.affix {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index:10;
+}
