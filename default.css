@@ -15,16 +15,16 @@
 
 body {
   font-family: helvetica-neue-ultra-thin2, sans-serif;
-  font-size: 14px;
+  font-size: 18px;
+  color: rgb(61,64,70);
 }
 
 a:hover {
     color: rgb(255,87,0) !important;
 }
 
-.logo,
-h3 {
-  margin: 15px 0;
+.logo {
+  margin: 12px 0 -10px 0;
 }
 
 span.coffee {
@@ -36,13 +36,9 @@ span.me {
   font-weight: bold;
 }
 
-h3 {
-  font-family: helvetica-neue-ultra-thin2, sans-serif;
-  font-size: 24px;
-}
-
 .navbar-default {
   background-color: #fff;
+  height: 40px;
 }
 
 .nav {
@@ -52,7 +48,7 @@ h3 {
   text-align: center;
   display: inline-block;
   float: none;
-
+  padding: 2px 0 10px 0;
 }
 
 a {
@@ -64,14 +60,138 @@ li.tabs {
   padding-right: 10px;
 }
 
+h3.discover {
+  color: #000;
+}
+
 a,
 .navbar-brand {
-
+  margin: -5px 0 -5px 0;
+  position: absolute;
 }
 
 #top-nav.affix {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index:10;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index:10;
+}
+
+.carousel-inner,
+.item {
+  width: 100%;
+  max-height: 710px;
+}
+
+h2 {
+  font-family: helvetica-neue-thin, sans-serif;
+  font-size: 50px;
+}
+
+.create {
+  text-align: center;
+  z-index: 1;
+}
+
+.carousel-caption {
+  bottom: 23%;
+}
+
+.carousel-button {
+  font-size: 37px;
+  color: #fff;
+  background-color: transparent;
+  border: 2px solid #fff;
+  margin: 70px 0;
+  padding: 10px 20px 10px 20px;
+}
+
+.carousel-button a:hover{
+  background-color: rgb(255,87,0) !important;
+}
+
+@media (max-width: 1000px) {
+  .carousel-caption {
+    bottom: 16%;
+  }
+}
+
+@media (max-width: 850px) {
+  .carousel-caption {
+    bottom: 10%;
+  }
+}
+
+@media (max-width: 750px) {
+  .carousel-caption {
+    bottom: 8%;
+  }
+}
+
+@media (max-width: 700px) {
+  .carousel-caption {
+    bottom: 8%;
+  }
+  h2 {
+    font-size: 35px;
+  }
+  .carousel-button {
+    font-size: 27px;
+    margin: 54px 0;
+    padding: 7px 15px 7px 15px;
+  }
+}
+
+@media (max-width: 575px) {
+  .carousel-caption {
+    bottom: 11%;
+  }
+  h2 {
+    font-size: 30px;
+  }
+   .carousel-button {
+    font-size: 20px;
+    margin: 35px 0;
+    padding: 6px 12px 6px 12px;
+  }
+  p {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 450px) {
+  .carousel-caption {
+    bottom: 9%;
+  }
+  h2 {
+    font-size: 25px;
+  }
+   .carousel-button {
+    font-size: 18px;
+    margin: 22px 0;
+    padding: 5px 10px 5px 10px;
+  }
+  p {
+    font-size: 12px;
+  }
+}
+
+.step1,
+.step2,
+.step3,
+.step4 {
+  background-color: rgb(255,87,0);
+  width: 200px;
+  height:200px;
+  border-radius: 50%;
+}
+
+.hiw-space {
+  margin: 70px 0 30px 0;
+}
+
+h3.hiw {
+  font-family: helvetica-neue-thin, sans-serif;
+  font-size: 43px;
+  color: #000;
 }
