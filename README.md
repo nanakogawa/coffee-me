@@ -2,10 +2,10 @@
 Website for people who wants to create their own coffee
 <p>Create Your Coffee
   <ul>
-    <li>Caffeine (Caffeinated, Decaffeinated</li>
-    <li>Roast (Light, Medium, Medium-Dark, Dark)</li>
+    <li>Roast (Light, Medium, Dark)</li>
     <li>Base beans (1-3 Combonations)</li>
     <li>Grind (French Press, Standard Drip, Espresso, Whole Beans)</li>
+    <li>Sweetners (White Sugar, Brown Sugar, Cream)</li>
     <li>Size (Sampler, Small, Medium, Large)</li>
   </ul>
 </p>
@@ -30,13 +30,11 @@ Website for people who wants to create their own coffee
   <ul>
     <li>Pre-Made Coffees
       <ul>
-        <li>Caffeinated (4 Signature Blends)</li>
-        <li>Decaffeinated (3 Signature Blends)</li>
+        <li>Caffeinated (10 Signature Blends)</li>
       </ul>
     </li>
     <li>Cream (1 Signature Cream)</li>
     <li>Sugar (2 Signature Sugars)</li>
-    <li>Mug (1 Signature Mug)</li>
   </ul
 </p>
 <p>About Us
