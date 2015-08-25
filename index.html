@@ -4,17 +4,41 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Mélange Coffee Home Page</title>
+    <title>CoffeeME Home Page</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" media="all">
     <link rel="stylesheet" href="default.css">
   </head>
   <body>
     <center>
-    <div class="container">
-      <div class="logo">
-        <h3>Coffee<span class="me">ME</span></h3>
+      <!-- start 'Get-15' modal -->
+      <div class="modal fade" id="get-15" tabindex="-1" role="dialog" aria-labelledby="myModalLabel-get-15">
+        <div class="modal-dialog modal-md" role="document">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <div class="get-15-modal">
+            <div class="col-md-12">
+              <h2 class="get-15-header">GET 15% OFF</h2>
+            </div>
+            <div class="col-md-12">
+              <h3 class="get-15-text">YOUR ENTIRE ORDER!</h3>
+            </div>
+            <div class="form-group">
+              <div class="col-md-12">
+                <label>When You Sign Up Today:</label>
+              </div>
+              <div class="col-md-12">
+                <input type="text" class="input" name="email" placeholder="E-Mail Address" /><br />
+                <button type="button" class="get-it-button" data-dismiss="modal">Get It!</button>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
+      <!-- end 'Get 15' modal -->
+      <!-- start logo -->
+      <h4 class="logo">Coffee<span class="me">ME</span></h4>
+      <!-- end logo -->
+      <!-- start nav -->
       <div id="top-nav">
       <nav class="navbar-default navbar-static" role="navigation">
         <div class="navbar-header">
@@ -28,17 +52,122 @@
         </div>
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="#">Sign Up</a></li>
+            <li><a href="#" class="navtab" id="myModal-log-in">Log In</a></li>
           </ul>
           <ul class="nav navbar-nav">
-            <li class="tabs"><a href="#">Create Your Coffee</a></li>
-            <li class="tabs"><a href="#">Discover</a></li>
-            <li class="tabs"><a href="#">Products</a></li>
-            <li class="tabs"><a href="#">About Us</a></li>
+            <li class="tabs"><a href="#" class="navtab">Create Your Coffee</a></li>
+            <li class="tabs"><a href="#" class="navtab">Discover</a></li>
+            <li class="tabs"><a href="#" class="navtab">Products</a></li>
+            <li class="tabs"><a href="#" class="navtab">About Us</a></li>
           </ul>
         </div>
       </nav>
       </div>
+      <!-- start 'Log In' modal -->
+      <div class="modal fade" id="log-in" tabindex="-1" role="dialog">
+        <div class="modal-dialog modal-lg" role="document">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <div class="log-in-modal">
+            <div class="col-md-12">
+              <h3 class="log-in-logo">Coffee<span class="me">ME</span></h3>
+            </div>
+            <div class="col-md-12">
+              <input type="text" name="email" placeholder="E-Mail Address" />
+            </div>
+            <div class="col-md-12">
+              <input type="text" name="password" placeholder="Password" />
+            </div>
+            <div class="col-md-12">
+              <input class="check-box" type="checkbox" name="service" value="agreement" checked="checked"/>
+                <span class="modal-text">Remember Me · <a href="#" id="myModal-forgot-p">Forgot Password?</a></span>
+            </div>
+            <div class="col-md-12">
+              <button type="button" data-dismiss="modal" class="log-in-button">Log In</button>
+            </div>
+            <div class="col-md-12">
+              <span class="modal-text">Don't have an account? <a href="#" class="myModal-sign-up">Sign Up</a></span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- end 'Log In' modal -->
+      <!-- start 'Forgot Password' modal -->
+      <div class="modal fade" id="forgot-p" tabindex="-1" role="dialog">
+        <div class="modal-dialog modal-lg" role="document">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <div class="forgot-p-modal">
+            <div class="col-md-12">
+              <h3 class="forgot-p-header">Forgot Password?</h3>
+            </div>
+            <div class="col-md-12">
+              <span class="modal-text">E-Mail Address:</span>
+            </div>
+            <div class="col-md-12">
+              <input type="text" name="email" placeholder="E-Mail Address" />
+            </div>
+            <div class="col-md-12">
+              <img src="images/security.png" class="security" />
+            </div>
+            <div class="col-md-12">
+              <span class="modal-text">Type the words above:</span>
+            </div>
+            <div class="col-md-12">
+              <input type="text" name="security" placeholder="Type Here" />
+            </div>
+            <div class="col-md-12">
+              <button type="button" data-dismiss="modal" class="forgot-p-button">Reset</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- end 'Forgot Password' modal -->
+      <!-- start 'Sign In' modal -->
+      <div class="modal fade" id="sign-up" tabindex="-1" role="dialog">
+        <div class="modal-dialog modal-lg" role="document">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <div class="sign-up-modal">
+            <div class="col-md-12">
+              <h3 class="log-in-logo">Coffee<span class="me">ME</span></h3>
+            </div>
+            <div class="col-md-12">
+              <span class="modal-text">First Name:</span>
+            </div>
+            <div class="col-md-12">
+              <input type="text" name="fname" placeholder="First Name" />
+            </div>
+            <div class="col-md-12">
+              <span class="modal-text">Last Name:</span>
+            </div>
+            <div class="col-md-12">
+              <input type="text" name="lname" placeholder="Last Name" />
+            </div>
+            <div class="col-md-12">
+              <span class="modal-text">E-Mail Anddress:</span>
+            </div>
+            <div class="col-md-12">
+              <input type="text" name="email" placeholder="E-Mail Address" />
+            </div>
+            <div class="col-md-12">
+              <span class="modal-text">Password:</span>
+            </div>
+            <div class="col-md-12">
+              <input type="text" name="password" placeholder="Password" />
+            </div>
+            <div class="col-md-12">
+              <span class="modal-text">Re-Type Password::</span>
+            </div>
+            <div class="col-md-12">
+              <input type="text" name="retype-password" placeholder="Re-Type Password" />
+            </div>
+            <div class="col-md-12">
+              <button type="button" data-dismiss="modal" class="sign-up-button">Sign Up</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- end 'Sign In' modal -->
+      <!-- end nav -->
+      <!-- start carousel -->
       <div id="myCarousel" class="carousel slide" data-ride="carousel">
       <!-- Indicators -->
         <ol class="carousel-indicators">
@@ -49,54 +178,159 @@
       <!-- Wrapper for slides -->
         <div class="carousel-inner" role="listbox">
           <div class="item active">
-            <img class="slide" src="images/coffee6.jpg" />
+            <img class="slide" src="images/carousel-1.jpg" />
             <div class="carousel-caption">
-              <h2>Create Your Taste</h2>
-              <p>Upgrade your daily routine with the coffee you love.
-                Be creative with the unique blends of your choice.</p>
+              <h1 class="carousel-title">Create Your Taste</h1>
+              <p class="carousel-text">Upgrade your daily routine with the coffee you love.</p>
               <button type="button" class="carousel-button">Create</button>
             </div>
           </div>
           <div class="item">
-            <img class="slide" src="images/coffee8.jpg" />
+            <img class="slide" src="images/carousel-2.jpg" />
             <div class="carousel-caption">
-              <h2>Discover Your Style</h2>
-              <p>Find out which blend is tailored perfectly for you.</p>
+              <h1 class="carousel-title">Discover Your Style</h1>
+              <p class="carousel-text">Find out which blend is tailored perfectly for you.</p>
               <button type="button" class="carousel-button">Discover</button>
             </div>
           </div>
           <div class="item">
           <!-- temporary image for slide 3 -->
-            <img class="slide" src="images/landscape5.jpg" />
+            <img class="slide" src="images/carousel-3.jpg" />
             <div class="carousel-caption">
-              <h2>Explore Our Products</h2>
-              <p>Take us everywhere you go. View our products for your coffee experience essentials.</p>
+              <h1 class="carousel-title">Explore Our Products</h1>
+              <p class="carousel-text">View our products for your coffee experience essentials.</p>
               <button type="button" class="carousel-button">Explore</button>
             </div>
           </div>
         </div>
       </div>
-      <div class ="row hiw-space">
-         <h3 class="hiw">How It Works</h3>
+      <!-- end carousel -->
+      <!-- start "How It Works" -->
+      <div class="container hiw">
+        <h1 class="hiw">How It Works</h1>
+        <div class="row">
+          <div class="col-md-3">
+              <img src="images/hiw-1.png" class="hiw-icon" />
+            <h2>You Pick</h2>
+            <p>Design and refine a blend made just for you with 6 easy steps. Pick your type
+                of roast level, choose up to 3 base beans, your desired form of grind, sweetener
+                options, size of the bag or sampler size, and check out! After you love it, join
+                our monthly subscription to receive the coffee you love every month!</p>
+            <button type="button" class="hiw-button">Start</button>
+          </div>
+          <div class="col-md-3">
+            <img src="images/hiw-2.png" class="hiw-icon" />
+            <h2>Try Our Coffee</h2>
+            <p>Ready for something new? All our coffees are single-origin coffees,
+              sourced from all over the world. The coffees are sent within two days from
+              roasting so you consume fresh coffee. Just like any other fruit, each coffee
+              has their own season. To always have the best in season, it's new coffee every
+              month!</p>
+            <button type="button" class="hiw-button">Try</button>
+          </div>
+          <div class="col-md-3">
+            <img src="images/hiw-3.png" class="hiw-icon" />
+            <h2>New To Coffee?</h2>
+            <p>Don't sweat it! Coffee doesn't bite. Check out our tips and guide for the
+              ultimate coffee 101! The guide will take you on a step by step tour to
+              find the coffee that best suits you, along with the education of different
+              types of coffee. Additional information to help you gain the best coffee experience
+              is provided in the tips!</p>
+            <button type="button" class="hiw-button">Learn</button>
+          </div>
+          <div class="col-md-3">
+            <img src="images/hiw-4.png" class="hiw-icon" />
+            <h2>Love Us?</h2>
+            <p>If so, share the love! A gift card is the most personal present there is.
+              Give the cup of coffee to a family or friend and experience the coffee moments
+              together. By giving to others, we'll share the love right back at you! Simply
+              receive 10% off every time you give a present. Gift cards are available today!</p>
+            <button type="button" class="hiw-button">Share</button>
+          </div>
+        </div>
       </div>
-      <div class="row">
-        <div class="col-md-3">
-          <div class="step1"></div>
-        </div>
-        <div class="col-md-3">
-          <div class="step2"></div>
-        </div>
-        <div class="col-md-3">
-          <div class="step2"></div>
-        </div>
-        <div class="col-md-3">
-          <div class="step2"></div>
+      <!-- end "How It Works" -->
+      <!-- start "Join Us" -->
+      <div class="container join">
+        <div class="row">
+
+          <div class="col-lg-6">
+            <div class="join-text">
+              <h1 class="join-title">Join <span class="join-coffee">Coffee</span><span class="me">ME</span> Today!</h1>
+              <p>Create an account with us to save all your creations!</p>
+              <p>Sign up to our monthly subscription to receive your creations
+                or our products right to your doorstep each month, well, automatic!</p>
+              <button type="button" class="join-button  myModal-sign-up">Join</button>
+            </div>
+          </div>
         </div>
       </div>
+      <!-- end "Join Us -->
+      <!-- start Instagram -->
+      <div class="container instagram">
+        <h1 class="instagram">Follow Us On Instagram</h1>
+        <div class="row">
+          <div class="col-lg-2">
+            <img src="images/ig-pic-1.PNG" class="ig-pic ig-pic-1" />
+            <!--<span class="igpic1"><span class="ig-text">Repost:<br/><img src="images/ig-user-1.png" class="igpic-icon" />istatik</span></span>-->
+          </div>
+          <div class="col-lg-2">
+            <img src="images/ig-pic-2.PNG" class="ig-pic ig-pic-2" />
+            <!--<span class="igpic2"><span class="ig-text">Repost:<br /><img src="images/ig-user-2.png" class="igpic-icon" />somaprana</span></span>-->
+          </div>
+          <div class="col-lg-2">
+            <img src="images/ig-pic-3.PNG" class="ig-pic ig-pic-3" />
+            <!--<span class="igpic3"><span class="ig-text">Repost:<br /><img src="images/ig-user-3.png" class="igpic-icon" />rafaelaelia</span></span>-->
+          </div>
+          <div class="col-lg-2">
+            <img src="images/ig-pic-4.PNG" class="ig-pic ig-pic-4" />
+            <!--<span class="igpic4"><span class="ig-text">Repost:<br /><img src="images/ig-user-4.png" class="igpic-icon" />vincpow</span></span>-->
+          </div>
+          <div class="col-lg-2">
+            <img src="images/ig-pic-5.png" class="ig-pic ig-pic-5" />
+            <!--<span class="igpic5"><span class="ig-text">Repost:<br /><img src="images/ig-user-5.png" class="igpic-icon" />somaprana</span></span>-->
+          </div>
+          <div class="col-lg-2">
+            <div class="igpic">
+              <p>See who's loving our coffee!</p>
+            <button type="button" class="ig-button">
+               <img src="images/ig-icon.gif" class="ig-icon" />
+              @CoffeeMe
+            </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+     <!--<div class="container">-->
+      <!--<div class="row">-->
+        <!--<div class="image col-md-2">-->
+        <!--<div class="words">-->
+          <!--la la la</div>-->
+        <!--</div>-->
+      <!--</div>-->
+    <!--</div>-->
+
+
+
+
+
+       <!-- end Instagram -->
+       <!-- start footer -->
+        <div class="footer">
+          <div class="container">
+            <div class="row">
+              <img src="images/facebook.png" class="footer-icons"/>
+              <img src="images/twitter.png" class="footer-icons" />
+              <img src="images/instagram.png" class="footer-icons" />
+            </div>
+          </div>
+        </div>
+       <!-- end footer -->
     </center>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="semantic/dist/semantic.min.js"></script>
     <script src="coffee.js"></script>
-    </div>
   </body>
 </html>

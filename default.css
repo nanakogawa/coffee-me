@@ -15,16 +15,175 @@
 
 body {
   font-family: helvetica-neue-ultra-thin2, sans-serif;
-  font-size: 18px;
-  color: rgb(61,64,70);
+  font-size: 20px;
 }
 
-a:hover {
+h1 {
+  font-size: 50px;
+  color: #000;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 37px;
+  color: #000;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 30px;
+}
+
+h4 {
+  font-size: 25px;
+}
+
+a,
+.navtab:hover {
     color: rgb(255,87,0) !important;
 }
 
-.logo {
-  margin: 12px 0 -10px 0;
+/* --- all modals --- */
+
+.modal {
+  top: 15%;
+}
+
+input {
+  width: 250px;
+  font-weight: bold;
+  margin: 5px;
+}
+
+span.modal-text {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+/* --- start 'Get 15' modal --- */
+
+.get-15-modal {
+  width: 420px;
+  height: 420px;
+  background-color: #fff;
+  border-radius: 50%;
+  border: 15px solid rgb(255,87,0);
+  padding: 70px 0 70px 0;
+}
+
+h2.get-15-header {
+  margin: 0;
+}
+
+h3.get-15-text {
+  margin: 20px;
+}
+
+.get-it-button {
+  color: #fff;
+  width: 70px;
+  height:70px;
+  border-radius: 50%;
+  background-color: rgb(255, 87, 0);
+  border: 0;
+  margin: 10px;
+}
+
+/* --- end 'Get 15' modal --- */
+/* --- start 'Log In' modal --- */
+
+.log-in-modal {
+  width: 420px;
+  height: 420px;
+  background-color: #fff;
+  text-align: center;
+  border-radius: 50%;
+  border: 15px solid rgb(255,87,0);
+  padding: 50px 0 50px 0;
+}
+
+.log-in-logo {
+  font-size: 30px;
+}
+
+.check-box {
+  width: 10px;
+}
+
+.log-in-button {
+  color: #fff;
+  width: 70px;
+  height:70px;
+  border-radius: 50%;
+  background-color: rgb(255, 87, 0);
+  border: 0;
+  margin: 5px;
+}
+
+/* --- end 'Log In' modal --- */
+/* --- start 'Reset Password' modal --- */
+
+.forgot-p-modal {
+  width: 460px;
+  height: 460px;
+  background-color: #fff;
+  text-align: center;
+  border-radius: 50%;
+  border: 15px solid rgb(255,87,0);
+  padding: 60px 0 60px 0;
+}
+
+h3.forgot-p-header {
+  font-weight: bold;
+}
+
+.security {
+  width: 190px;
+  height: auto;
+  border: 1px;
+  margin: 10px;
+}
+
+.forgot-p-button {
+  color: #fff;
+  width: 65px;
+  height:65px;
+  border-radius: 50%;
+  background-color: rgb(255, 87, 0);
+  padding: 2px;
+  border: 0;
+  margin: 15px 5px 5px 5px;
+}
+
+/* --- end 'Reset Password' modal --- */
+/* --- start 'Sign Up' --- */
+
+.sign-up-modal {
+  width: 570px;
+  height: 570px;
+  background-color: #fff;
+  text-align: center;
+  border-radius: 50%;
+  border: 15px solid rgb(255,87,0);
+  padding: 15px 0 20px 0;
+}
+
+.sign-up-button {
+  color: #fff;
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  background-color: rgb(255, 87, 0);
+  padding: 0;
+  border: 0;
+  margin: 10px 0 0 0;
+}
+
+/* --- end 'Sign Up' --- */
+/* --- start logo --- */
+
+h4.logo {
+  margin: 12px 0 -7px 0;
 }
 
 span.coffee {
@@ -35,6 +194,9 @@ span.me {
   color: rgb(255,87,0);
   font-weight: bold;
 }
+
+/* -- end logo --- */
+/* --- start nav --- */
 
 .navbar-default {
   background-color: #fff;
@@ -48,11 +210,6 @@ span.me {
   text-align: center;
   display: inline-block;
   float: none;
-  padding: 2px 0 10px 0;
-}
-
-a {
-  color: rgb(162, 174, 191) !important;
 }
 
 li.tabs {
@@ -60,14 +217,20 @@ li.tabs {
   padding-right: 10px;
 }
 
-h3.discover {
-  color: #000;
+a.navtab {
+  font-size: 15px;
+  color: rgb(162, 174, 191) !important;
+  margin: -5px 0 -5px 0;
+  position: absolute;
 }
 
-a,
 .navbar-brand {
   margin: -5px 0 -5px 0;
   position: absolute;
+}
+
+.navbar-brand {
+  font-size: 18px;
 }
 
 #top-nav.affix {
@@ -77,37 +240,37 @@ a,
   z-index:10;
 }
 
+/* --- end navbar --- */
+/* --- start carousel --- */
+
 .carousel-inner,
 .item {
   width: 100%;
   max-height: 710px;
 }
 
-h2 {
-  font-family: helvetica-neue-thin, sans-serif;
-  font-size: 50px;
-}
-
-.create {
-  text-align: center;
-  z-index: 1;
-}
-
 .carousel-caption {
   bottom: 23%;
+  text-shadow: 1px 1px 1px #474747,
+               5px 5px 7px #606060;
+}
+
+h1.carousel-title {
+  color: #fff;
+}
+
+p.carousel-text {
+  font-size: 24px;
 }
 
 .carousel-button {
   font-size: 37px;
   color: #fff;
+  font-weight: bold;
   background-color: transparent;
   border: 2px solid #fff;
   margin: 70px 0;
   padding: 10px 20px 10px 20px;
-}
-
-.carousel-button a:hover{
-  background-color: rgb(255,87,0) !important;
 }
 
 @media (max-width: 1000px) {
@@ -124,74 +287,281 @@ h2 {
 
 @media (max-width: 750px) {
   .carousel-caption {
-    bottom: 8%;
+    bottom: 9%;
   }
 }
 
-@media (max-width: 700px) {
+@media (max-width: 720px) {
   .carousel-caption {
-    bottom: 8%;
+    bottom: 10%;
   }
-  h2 {
-    font-size: 35px;
+  h1.carousel-title {
+    font-size: 45px;
   }
   .carousel-button {
     font-size: 27px;
     margin: 54px 0;
-    padding: 7px 15px 7px 15px;
+    padding: 6px 15px 6px 15px;
+  }
+  p.carousel-text {
+    font-size: 22px;
   }
 }
 
-@media (max-width: 575px) {
+@media (max-width: 640px) {
   .carousel-caption {
-    bottom: 11%;
+    bottom: 9%;
   }
-  h2 {
-    font-size: 30px;
+  h1.carousel-title {
+    font-size: 40px;
   }
    .carousel-button {
     font-size: 20px;
-    margin: 35px 0;
+    margin: 40px 0;
     padding: 6px 12px 6px 12px;
   }
-  p {
-    font-size: 14px;
+  p.carousel-text {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 540px) {
+  .carousel-caption {
+    bottom: 15%;
+  }
+  h1.carousel-title {
+    font-size: 35px;
+  }
+   .carousel-button {
+    font-size: 18px;
+    margin: 25px 0;
+    padding: 5px 10px 5px 10px;
+  }
+  p.carousel-text {
+    font-size: 18px;
+    margin: 0;
   }
 }
 
 @media (max-width: 450px) {
   .carousel-caption {
-    bottom: 9%;
+    bottom: 10%;
   }
-  h2 {
-    font-size: 25px;
+  h1.carousel-title {
+    font-size: 35px;
   }
    .carousel-button {
     font-size: 18px;
-    margin: 22px 0;
+    margin: 10px 0;
     padding: 5px 10px 5px 10px;
   }
-  p {
-    font-size: 12px;
+  p.carousel-text {
+    font-size: 16px;
+    margin: 0;
   }
 }
 
-.step1,
-.step2,
-.step3,
-.step4 {
-  background-color: rgb(255,87,0);
-  width: 200px;
-  height:200px;
+/* --- end carousel --- */
+/* --- start "How It Works" */
+
+
+.hiw {
+  width: 95%;
+  margin: 80px 0 80px 0;
+}
+
+h1.hiw {
+  margin: 0 0 60px 0;
+}
+
+.hiw-icon {
+  width:300px;
+  height: 300px;
   border-radius: 50%;
+  margin: 15px 15px 5px 15px;
 }
 
-.hiw-space {
-  margin: 70px 0 30px 0;
+.hiw-button {
+  color: #fff;
+  font-size: 25px;
+  background-color: rgb(255,87,0);
+  border-radius: 50%;
+  padding: 5%;
+  border: 0;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  margin: 8px 0 30px 0;
 }
 
-h3.hiw {
-  font-family: helvetica-neue-thin, sans-serif;
-  font-size: 43px;
+/* --- end "How It Works" --- */
+/* ---start "Join Us" --- */
+
+.join {
+  background-image: url('images/join.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 800px;
+  width: 100%;
+}
+
+h1.join-title {
+  color: #fff;
+  text-shadow: 1px 1px 1px #474747,
+               5px 5px 7px #606060;
+}
+
+span.join-coffee {
+  font-weight: normal;
+}
+
+.join-text {
+  font-size: 24px;
+  color: #fff;
+  opacity: 1;
+  margin: 100px 0 0 0;
+  padding: 10%;
+  text-shadow: 1px 1px 1px #474747,
+               5px 5px 7px #606060;
+}
+
+.join-button {
+  font-size: 37px;
+  color: #fff;
+  font-weight: bold;
+  background-color: transparent;
+  border: 2px solid #fff;
+  margin: 20px 0;
+  padding: 10px 30px 10px 30px;
+}
+
+/* --- end "Join Us" --- */
+/* --- start Instagram --- */
+
+.instagram {
+ width: 95%;
+ margin: 70px 0 70px 0;
+}
+
+h1.instagram {
+  text-align: left;
+  margin: 0 0 35px 0;
   color: #000;
 }
+
+p.instagram {
+  color: #000;
+}
+
+.ig-pic {
+  width: 200px;
+  height: 200px;
+  margin: 20px;
+}
+
+/*.ig-text {*/
+  /*opacity: 1;*/
+  /*z-index: 0;*/
+/*}*/
+
+/*.igpic1,*/
+/*.igpic2,*/
+/*.igpic3,*/
+/*.igpic4,*/
+/*.igpic5 {*/
+  /*text-align: center;*/
+  /*display: none;*/
+  /*position: absolute;*/
+  /*width: 200px;*/
+  /*height: 200px;*/
+  /*margin: 20px;*/
+  /*z-index: 2;*/
+  /*color: #fff;*/
+/*}*/
+
+/*.igpic1 {*/
+  /*background-color: #000;*/
+  /*opacity: 0.5;*/
+  /*background-size: 200px 200px;*/
+  /*position: absolute;*/
+  /*z-index: -0;*/
+/*}*/
+
+/*.igpic2 {*/
+  /*background-color: #000;*/
+  /*opacity: 0.5;*/
+  /*background-size: 200px 200px;*/
+  /*position: absolute;*/
+  /*z-index: -0;*/
+/*}*/
+
+/*.igpic3 {*/
+  /*background-color: #000;*/
+  /*opacity: 0.5;*/
+  /*background-size: 200px 200px;*/
+  /*position: absolute;*/
+  /*z-index: -0;*/
+/*}*/
+
+/*.igpic4 {*/
+  /*background-color: #000;*/
+  /*opacity: 0.5;*/
+  /*background-size: 200px 200px;*/
+  /*position: absolute;*/
+  /*z-index: -0;*/
+/*}*/
+
+/*.igpic5 {*/
+  /*background-color: #000;*/
+  /*opacity: 0.5;*/
+  /*background-size: 200px 200px;*/
+  /*position: absolute;*/
+  /*z-index: -0;*/
+/*}*/
+
+.ig-button {
+  color: #fff;
+  background-color: rgb(255,87,0);
+  border-radius: 50%;
+  border: 0;
+  width: 118px;
+  height: 118px;
+  margin: 20px 0 0 0;
+}
+
+.ig-icon {
+  width: 40px;
+  height: 40px;
+  margin: 0;
+  padding: 0;
+}
+
+/*.igpic-icon {*/
+  /*width: 40px;*/
+  /*height: 40px;*/
+  /*border-radius: 50%;*/
+  /*border: 0;*/
+  /*margin: 5px;*/
+/*}*/
+
+/* --- end Instagram --- */
+/* --- start footer --- */
+
+.footer {
+  height: 330px;
+  background-color: rgb(255,87,0);
+  color: #fff;
+  width: 100%;
+}
+
+.footer-icons {
+  width: 40px;
+  height: 40px;
+  background-color: transparent;
+  border-radius: 40px;
+  border: 2px solid #fff;
+  padding: 5px;
+  margin: 5px;
+}
+
+/* --- end footer --- */
