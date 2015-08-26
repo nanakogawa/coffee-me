@@ -101,6 +101,7 @@ a.logo-link {
   text-align: center;
   display: inline-block;
   float: none;
+  background-color: #fff;
 }
 
 li.tabs {
@@ -181,6 +182,7 @@ h3.get-15-text {
 
 .check-box {
   width: 10px;
+  color: rgb(255,87,0) !important;
 }
 
 .log-in-button {
@@ -191,6 +193,10 @@ h3.get-15-text {
   background-color: rgb(255, 87, 0);
   border: 0;
   margin: 5px;
+}
+
+a.sign-up {
+  color: rgb(255,87,0) !important;
 }
 
 /* --- end 'Log In' modal --- */
@@ -398,12 +404,9 @@ h1.hiw {
   font-size: 25px;
   background-color: rgb(255,87,0);
   border-radius: 50%;
-  padding: 5%;
   border: 0;
   width: 100px;
   height: 100px;
-  text-align: center;
-  margin: 8px 0 30px 0;
 }
 
 /* --- end "How It Works" --- */
@@ -601,31 +604,45 @@ img.discover-cover-img {
   text-align: center;
   border-radius: 50%;
   border: 15px solid rgb(255,87,0);
-  padding: 60px 0 60px 0;
+  padding: 90px 16px 30px 16px;
 }
 
-#product-title1,
-#product-title2,
-#product-title3,
-#product-title4,
-#product-title5,
-#product-title6,
-#product-title7,
-#product-title8,
-#product-title9,
-#product-title10,
-#product-title11,
-#product-title12,
-#product-title13,
-#product-title14,
-#product-title15,
-#product-title16,
-#product-title17,
-#product-title18,
-#product-title19,
-#product-title20 {
-  display: none;
-  padding: 0 60px;
+.sampler-button,
+.small-button,
+.medium-button,
+.large-button {
+  color: rgb(255,87,0);
+  background-color: transparent;
+  border-radius: 50%;
+  border: 2px solid rgb(255,87,0);
+}
+
+.sampler-button {
+  width: 80px;
+  height: 80px;
+}
+
+.small-button {
+  width: 100px;
+  height: 100px;
+}
+
+.medium-button {
+  width: 120px;
+  height: 120px;
+}
+
+.large-button {
+  width: 140px;
+  height: 140px;
+}
+
+span.product-size {
+  font-size: 12px;
+}
+
+span.sampler-text {
+  font-size: 18px;
 }
 
 /* ---------- END ADD BUTTON MODAL ---------- */
@@ -765,236 +782,61 @@ h2.products-title {
   margin: 20px 0 0 0;
 }
 
-#ey-button {
-  background: transparent;
-  border: 0;
-}
-
-.ey-info {
-  display: none;
-}
-
-#crt-button {
-  background: transparent;
-  border: 0;
-}
-
-.crt-info {
-  display: none;
-}
-
-#mha-button {
-  background: transparent;
-  border: 0;
-}
-
-.mha-info {
-  display: none;
-}
-
-#bfc-button {
-  background: transparent;
-  border: 0;
-}
-
-.bfc-info {
-  display: none;
-}
-
-#nmm-button {
-  background: transparent;
-  border: 0;
-}
-
-.nmm-info {
-  display: none;
-}
-
-#rdk-button {
-  background: transparent;
-  border: 0;
-}
-
-.rdk-info {
-  display: none;
-}
-
-#tm-button {
-  background: transparent;
-  border: 0;
-}
-
-.tm-info {
-  display: none;
-}
-
-#byc-button {
-  background: transparent;
-  border: 0;
-}
-
-.byc-info {
-  display: none;
-}
-
-#essm-button {
-  background: transparent;
-  border: 0;
-}
-
-.essm-info {
-  display: none;
-}
-
-#glv-button {
-  background: transparent;
-  border: 0;
-}
-
-.glv-info {
-  display: none;
-}
-
-#es-button {
-  background: transparent;
-  border: 0;
-}
-
-.es-info {
-  display: none;
-}
-
-#bb-button {
-  background: transparent;
-  border: 0;
-}
-
-.bb-info {
-  display: none;
-}
-
-#mc-button {
-  background: transparent;
-  border: 0;
-}
-
-.mc-info {
-  display: none;
-}
-
-#co-button {
-  background: transparent;
-  border: 0;
-}
-
-.co-info {
-  display: none;
-}
-
-#crtu-button {
-  background: transparent;
-  border: 0;
-}
-
-.crtu-info {
-  display: none;
-}
-
-#ek-button {
-  background: transparent;
-  border: 0;
-}
-
-.ek-info {
-  display: none;
-}
-
-#hsv-button {
-  background: transparent;
-  border: 0;
-}
-
-.hsv-info {
-  display: none;
-}
-
-#uk-button {
-  background: transparent;
-  border: 0;
-}
-
-.uk-info {
-  display: none;
-}
-
-#rg-button {
-  background: transparent;
-  border: 0;
-}
-
-.rg-info {
-  display: none;
-}
-
-#bba-button {
-  background: transparent;
-  border: 0;
-}
-
-.bba-info {
-  display: none;
-}
-
-#cs-button {
-  background: transparent;
-  border: 0;
-}
-
-.cs-info {
-  display: none;
-}
-
-#hnh-button {
-  background: transparent;
-  border: 0;
-}
-
-.hnh-info {
-  display: none;
-}
-
-#dbs-button {
-  background: transparent;
-  border: 0;
-}
-
-.dbs-info {
-  display: none;
-}
-
-#lbs-button {
-  background: transparent;
-  border: 0;
-}
-
-.lbs-info {
-  display: none;
-}
-
-#rh-button {
-  background: transparent;
-  border: 0;
-}
-
-.rh-info {
-  display: none;
-}
-
+#ey-button,
+#crt-button,
+#mha-button,
+#bfc-button,
+#nmm-button,
+#rdk-button,
+#tm-button,
+#byc-button,
+#essm-button,
+#glv-button,
+#es-button,
+#bb-button,
+#mc-button,
+#co-button,
+#crtu-button,
+#ek-button,
+#hsv-button,
+#uk-button,
+#rg-button,
+#bba-button,
+#cs-button,
+#hnh-button,
+#dbs-button,
+#lbs-button,
+#rh-button,
 #sc-button {
   background: transparent;
   border: 0;
 }
 
+.ey-info,
+.crt-info,
+.mha-info,
+.bfc-info,
+.nmm-info,
+.rdk-info,
+.tm-info,
+.byc-info,
+.essm-info,
+.glv-info,
+.es-info,
+.bb-info,
+.mc-info,
+.co-info,
+.crtu-info,
+.ek-info,
+.hsv-info,
+.uk-info,
+.rg-info,
+.bba-info,
+.cs-info,
+.hnh-info,
+.dbs-info,
+.lbs-info,
+.rh-info,
 .sc-info {
   display: none;
 }

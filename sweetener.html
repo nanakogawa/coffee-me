@@ -12,7 +12,31 @@
   </head>
   <body>
     <center>
-    <a href="index.html" class="logo-link"><h4 class="logo">Coffee<span class="me">ME</span></h4></a>
+    <!-- start sweetener modal -->
+      <div class="modal fade" id="add-button-modal" tabindex="-1" role="dialog">
+        <div class="modal-dialog modal-md" role="document">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <div class="add-button-modal">
+            <div class="col-md-12">
+              <h2 id="product-title"></h2>
+            </div>
+            <div class="col-md-12">
+              <p>Choose Your Size:</p>
+            </div>
+            <div class="col-md-12">
+              <button type="button" class="sampler-button"><span class="sampler-text">Sampler</span><br /><span class="product-size">8oz</span></button>
+              <button type="button" class="small-button">Small<br /><span class="product-size">16oz</span></button>
+              <button type="button" class="medium-button">Medium<br /><span class="product-size">24oz</span></button>
+              <button type="button" class="large-button">Large<br /><span class="product-size">32oz</span></button>
+            </div>
+            <div class="col-md-12">
+              <button type="button" class="get-it-button" data-dismiss="modal">Get It!</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    <!-- end sweetener modal -->
+      <a href="index.html" class="logo-link"><h4 class="logo">Coffee<span class="me">ME</span></h4></a>
       <div id="top-nav">
         <nav class="navbar-default navbar-static" role="navigation">
           <div class="navbar-header">
@@ -70,7 +94,7 @@
   	            </div>
                 <p>Imported from Indonesia<br />
                 <span class="hashtag">#Healthy</span></p>
-                <button type="button" class="add-button link">Add</button>
+                <button type="button" class="add-button link" product-name="COCONUT SUGAR">Add</button>
               </div>
             </div>
             <div class="col-md-3 col-sm-6">
@@ -86,7 +110,7 @@
   	            </div>
                 <p>Manufactured in our Factory<br />
                   <span class="hashtag">#Creamy</span></p>
-                <button type="button" class="add-button link">Add</button>
+                <button type="button" class="add-button link" product-name="HALF AND HALF">Add</button>
               </div>
             </div>
             <div class="col-md-3 col-sm-6">
@@ -101,7 +125,7 @@
   	            </div>
                 <p>Manufactured in our Factory<br />
                   <span class="hashtag">#Intense</span></p>
-                <button type="button" class="add-button link">Add</button>
+                <button type="button" class="add-button link" product-name="DARK BROWN SUGAR">Add</button>
               </div>
             </div>
             <div class="col-md-3 col-sm-6">
@@ -117,7 +141,7 @@
   	            </div>
                 <p>Manufactured in our Factory<br />
                   <span class="hashtag">#Delicate</span></p>
-                <button type="button" class="add-button link">Add</button>
+                <button type="button" class="add-button link" product-name="LIGHT BROWN SUGAR">Add</button>
               </div>
             </div>
           </div>
@@ -134,7 +158,7 @@
   	          </div>
               <p>Imported from New Zealand<br />
                 <span class="hashtag">#Rich</span></p>
-              <button type="button" class="add-button link">Add</button>
+              <button type="button" class="add-button link" product-name="RAW HONEY">Add</button>
             </div>
             <div class="col-md-3 col-sm-6">
               <div class="products-coffee">
@@ -149,7 +173,7 @@
   	            </div>
                 <p>Manufactured in our Factory<br />
                   <span class="hashtag">#Luxurious</span></p>
-                <button type="button" class="add-button link">Add</button>
+                <button type="button" class="add-button link" product-name="SALTED CARAMEL">Add</button>
               </div>
             </div>
           </div>
