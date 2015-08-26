@@ -592,6 +592,43 @@ img.discover-cover-img {
 
 /* ---------- END DISCOVER PAGE ---------- */
 /* ---------- START PRODUCTS PAGE ---------- */
+/* ---------- START ADD BUTTON MODAL ---------- */
+
+.add-button-modal {
+  width: 550px;
+  height: 550px;
+  background-color: #fff;
+  text-align: center;
+  border-radius: 50%;
+  border: 15px solid rgb(255,87,0);
+  padding: 60px 0 60px 0;
+}
+
+#product-title1,
+#product-title2,
+#product-title3,
+#product-title4,
+#product-title5,
+#product-title6,
+#product-title7,
+#product-title8,
+#product-title9,
+#product-title10,
+#product-title11,
+#product-title12,
+#product-title13,
+#product-title14,
+#product-title15,
+#product-title16,
+#product-title17,
+#product-title18,
+#product-title19,
+#product-title20 {
+  display: none;
+  padding: 0 60px;
+}
+
+/* ---------- END ADD BUTTON MODAL ---------- */
 
 .products-cover {
   position: relative;
@@ -979,14 +1016,6 @@ button.add-button {
   border-radius: 50%;
   border: 0;
 }
-
-.details-button {
-  color: #fff;
-  font-size: 24px;
-  background-color: transparent;
-  border: none;
-}
-
 
 /* --------- END SWEETENER PAGE ---------- */
 /* ---------- END PRODUCTS PAGE ---------- */
