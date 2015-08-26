@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" media="all">
     <link rel="stylesheet" href="default.css">
+    <link rel="stylesheet" href="semantic.css">
   </head>
   <body>
     <center>
@@ -36,32 +37,32 @@
       </div>
       <!-- end 'Get 15' modal -->
       <!-- start logo -->
-      <h4 class="logo">Coffee<span class="me">ME</span></h4>
+      <a href="index.html" class="logo-link"><h4 class="logo">Coffee<span class="me">ME</span></h4></a>
       <!-- end logo -->
       <!-- start nav -->
       <div id="top-nav">
-      <nav class="navbar-default navbar-static" role="navigation">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand collapse" href="#"><span class="coffee">Coffee</span><span class="me">ME</span></a>
-        </div>
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="#" class="navtab" id="myModal-log-in">Log In</a></li>
-          </ul>
-          <ul class="nav navbar-nav">
-            <li class="tabs"><a href="#" class="navtab">Create Your Coffee</a></li>
-            <li class="tabs"><a href="#" class="navtab">Discover</a></li>
-            <li class="tabs"><a href="#" class="navtab">Products</a></li>
-            <li class="tabs"><a href="#" class="navtab">About Us</a></li>
-          </ul>
-        </div>
-      </nav>
+        <nav class="navbar-default navbar-static" role="navigation">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand collapse" href="index.html"><span class="coffee">Coffee</span><span class="me">ME</span></a>
+          </div>
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="#" class="navtab" id="myModal-log-in">Log In</a></li>
+            </ul>
+            <ul class="nav navbar-nav">
+              <li class="tabs"><a href="create.html" class="navtab">Create Your Coffee</a></li>
+              <li class="tabs"><a href="discover.html" class="navtab">Discover</a></li>
+              <li class="tabs"><a href="products.html" class="navtab">Products</a></li>
+              <li class="tabs"><a href="about-us.html" class="navtab">About Us</a></li>
+            </ul>
+          </div>
+        </nav>
       </div>
       <!-- start 'Log In' modal -->
       <div class="modal fade" id="log-in" tabindex="-1" role="dialog">
@@ -182,7 +183,7 @@
             <div class="carousel-caption">
               <h1 class="carousel-title">Create Your Taste</h1>
               <p class="carousel-text">Upgrade your daily routine with the coffee you love.</p>
-              <button type="button" class="carousel-button">Create</button>
+              <button type="button" class="carousel-button"><a href="create.html" class="link">Create</a></button>
             </div>
           </div>
           <div class="item">
@@ -190,7 +191,7 @@
             <div class="carousel-caption">
               <h1 class="carousel-title">Discover Your Style</h1>
               <p class="carousel-text">Find out which blend is tailored perfectly for you.</p>
-              <button type="button" class="carousel-button">Discover</button>
+              <button type="button" class="carousel-button"><a href="discover.html" class="link">Discover</a></button>
             </div>
           </div>
           <div class="item">
@@ -199,7 +200,7 @@
             <div class="carousel-caption">
               <h1 class="carousel-title">Explore Our Products</h1>
               <p class="carousel-text">View our products for your coffee experience essentials.</p>
-              <button type="button" class="carousel-button">Explore</button>
+              <button type="button" class="carousel-button"><a href="products.html" class="link">Explore</a></button>
             </div>
           </div>
         </div>
@@ -216,7 +217,7 @@
                 of roast level, choose up to 3 base beans, your desired form of grind, sweetener
                 options, size of the bag or sampler size, and check out! After you love it, join
                 our monthly subscription to receive the coffee you love every month!</p>
-            <button type="button" class="hiw-button">Start</button>
+            <button type="button" class="hiw-button"><a href="create.html" class="link">Start</a></button>
           </div>
           <div class="col-md-3">
             <img src="images/hiw-2.png" class="hiw-icon" />
@@ -226,7 +227,7 @@
               roasting so you consume fresh coffee. Just like any other fruit, each coffee
               has their own season. To always have the best in season, it's new coffee every
               month!</p>
-            <button type="button" class="hiw-button">Try</button>
+            <button type="button" class="hiw-button"><a href="products.html" class="link">Try</a></button>
           </div>
           <div class="col-md-3">
             <img src="images/hiw-3.png" class="hiw-icon" />
@@ -236,7 +237,7 @@
               find the coffee that best suits you, along with the education of different
               types of coffee. Additional information to help you gain the best coffee experience
               is provided in the tips!</p>
-            <button type="button" class="hiw-button">Learn</button>
+            <button type="button" class="hiw-button"><a href="discover.html" class="link">Learn</a></button>
           </div>
           <div class="col-md-3">
             <img src="images/hiw-4.png" class="hiw-icon" />
@@ -253,7 +254,6 @@
       <!-- start "Join Us" -->
       <div class="container join">
         <div class="row">
-
           <div class="col-lg-6">
             <div class="join-text">
               <h1 class="join-title">Join <span class="join-coffee">Coffee</span><span class="me">ME</span> Today!</h1>
@@ -270,53 +270,99 @@
       <div class="container instagram">
         <h1 class="instagram">Follow Us On Instagram</h1>
         <div class="row">
-          <div class="col-lg-2">
-            <img src="images/ig-pic-1.PNG" class="ig-pic ig-pic-1" />
-            <!--<span class="igpic1"><span class="ig-text">Repost:<br/><img src="images/ig-user-1.png" class="igpic-icon" />istatik</span></span>-->
+          <div class="col-lg-2 col-sm-6">
+            <div class="ui special cards">
+              <div class="card">
+                <div class="blurring dimmable image">
+                  <div class="ui dimmer">
+                    <div class="content">
+                      <div class="center">
+                        <div class="ig-text">Repost:<br /><button type="button" class="ig-user-button"><img src="images/ig-user-1.png" class="ig-user-icon" />istatik</button></div>
+                      </div>
+                    </div>
+                  </div>
+                  <img src="images/ig-pic-1.PNG" class="ig-pic" />
+                </div>
+              </div>
+            </div>
           </div>
-          <div class="col-lg-2">
-            <img src="images/ig-pic-2.PNG" class="ig-pic ig-pic-2" />
-            <!--<span class="igpic2"><span class="ig-text">Repost:<br /><img src="images/ig-user-2.png" class="igpic-icon" />somaprana</span></span>-->
+          <div class="col-lg-2 col-sm-6">
+            <div class="ui special cards">
+              <div class="card">
+                <div class="blurring dimmable image">
+                  <div class="ui dimmer">
+                    <div class="content">
+                      <div class="center">
+                        <div class="ig-text">Repost:<br /><button type="button" class="ig-user-button"><img src="images/ig-user-2.png" class="ig-user-icon" />ashleylily</button></div>
+                      </div>
+                    </div>
+                  </div>
+                  <img src="images/ig-pic-2.PNG" class="ig-pic" />
+                </div>
+              </div>
+            </div>
           </div>
-          <div class="col-lg-2">
-            <img src="images/ig-pic-3.PNG" class="ig-pic ig-pic-3" />
-            <!--<span class="igpic3"><span class="ig-text">Repost:<br /><img src="images/ig-user-3.png" class="igpic-icon" />rafaelaelia</span></span>-->
+          <div class="col-lg-2 col-sm-6">
+            <div class="ui special cards">
+              <div class="card">
+                <div class="blurring dimmable image">
+                  <div class="ui dimmer">
+                    <div class="content">
+                      <div class="center">
+                        <div class="ig-text">Repost:<br /><button type="button" class="ig-user-button"><img src="images/ig-user-3.png" class="ig-user-icon" />rafaelaeliak</button></div>
+                      </div>
+                    </div>
+                  </div>
+                  <img src="images/ig-pic-3.PNG" class="ig-pic" />
+                </div>
+              </div>
+            </div>
           </div>
-          <div class="col-lg-2">
-            <img src="images/ig-pic-4.PNG" class="ig-pic ig-pic-4" />
-            <!--<span class="igpic4"><span class="ig-text">Repost:<br /><img src="images/ig-user-4.png" class="igpic-icon" />vincpow</span></span>-->
+          <div class="col-lg-2 col-sm-6">
+            <div class="ui special cards">
+              <div class="card">
+                <div class="blurring dimmable image">
+                  <div class="ui dimmer">
+                    <div class="content">
+                      <div class="center">
+                        <div class="ig-text">Repost:<br /><button type="button" class="ig-user-button"><img src="images/ig-user-4.png" class="ig-user-icon" />vincpow</button></div>
+                      </div>
+                    </div>
+                  </div>
+                  <img src="images/ig-pic-4.PNG" class="ig-pic" />
+                </div>
+              </div>
+            </div>
           </div>
-          <div class="col-lg-2">
-            <img src="images/ig-pic-5.png" class="ig-pic ig-pic-5" />
-            <!--<span class="igpic5"><span class="ig-text">Repost:<br /><img src="images/ig-user-5.png" class="igpic-icon" />somaprana</span></span>-->
+          <div class="col-lg-2 col-sm-6">
+            <div class="ui special cards">
+              <div class="card">
+                <div class="blurring dimmable image">
+                  <div class="ui dimmer">
+                    <div class="content">
+                      <div class="center">
+                        <div class="ig-text">Repost:<br /><button type="button" class="ig-user-button"><img src="images/ig-user-5.png" class="ig-user-icon" />somaprana</button></div>
+                      </div>
+                    </div>
+                  </div>
+                  <img src="images/ig-pic-5.png" class="ig-pic" />
+                </div>
+              </div>
+            </div>
           </div>
-          <div class="col-lg-2">
-            <div class="igpic">
+          <div class="col-lg-2 col-sm-6">
+            <div class="ig-pic">
               <p>See who's loving our coffee!</p>
-            <button type="button" class="ig-button">
-               <img src="images/ig-icon.gif" class="ig-icon" />
-              @CoffeeMe
-            </button>
+              <button type="button" class="ig-button">
+                <img src="images/ig-icon.gif" class="ig-icon" />
+                  @CoffeeMe
+              </button>
             </div>
           </div>
         </div>
       </div>
-
-     <!--<div class="container">-->
-      <!--<div class="row">-->
-        <!--<div class="image col-md-2">-->
-        <!--<div class="words">-->
-          <!--la la la</div>-->
-        <!--</div>-->
-      <!--</div>-->
-    <!--</div>-->
-
-
-
-
-
-       <!-- end Instagram -->
-       <!-- start footer -->
+        <!--end Instagram -->
+        <!--start footer -->
         <div class="footer">
           <div class="container">
             <div class="row">
@@ -326,11 +372,11 @@
             </div>
           </div>
         </div>
-       <!-- end footer -->
+        <!--end footer -->
     </center>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-    <script src="semantic/dist/semantic.min.js"></script>
+    <script src="semantic.js"></script>
     <script src="coffee.js"></script>
   </body>
 </html>

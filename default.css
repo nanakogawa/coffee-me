@@ -38,9 +38,19 @@ h4 {
   font-size: 25px;
 }
 
-a,
+
 .navtab:hover {
     color: rgb(255,87,0) !important;
+}
+
+.link:hover {
+  color: #fff;
+  font-weight: bold;
+}
+
+.link{
+  color: #fff;
+  text-decoration: none !important;
 }
 
 /* --- all modals --- */
@@ -60,6 +70,69 @@ span.modal-text {
   font-weight: bold;
 }
 
+/* --- start logo --- */
+
+h4.logo {
+  margin: 12px 0 -7px 0;
+}
+
+span.me {
+  color: rgb(255,87,0);
+  font-weight: bold;
+}
+
+a.logo-link {
+  color: #000;
+  text-decoration: none !important;
+}
+
+/* -- end logo --- */
+/* --- start nav --- */
+
+.navbar-default {
+  background-color: #fff;
+  height: 40px;
+}
+
+.nav {
+  font-family: helvetica-neue-thin, sans-serif;
+  font-size: 15px;
+  text-transform: uppercase;
+  text-align: center;
+  display: inline-block;
+  float: none;
+}
+
+li.tabs {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+a.navtab {
+  font-size: 15px;
+  color: rgb(162, 174, 191) !important;
+  margin: -5px 0 -5px 0;
+  position: absolute;
+}
+
+.navbar-brand {
+  margin: -5px 0 -5px 0;
+  position: absolute;
+}
+
+.navbar-brand {
+  font-size: 18px;
+}
+
+#top-nav.affix {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index:10;
+}
+
+/* --- end navbar --- */
+/* ---------- START HOME PAGE ---------- */
 /* --- start 'Get 15' modal --- */
 
 .get-15-modal {
@@ -180,67 +253,6 @@ h3.forgot-p-header {
 }
 
 /* --- end 'Sign Up' --- */
-/* --- start logo --- */
-
-h4.logo {
-  margin: 12px 0 -7px 0;
-}
-
-span.coffee {
-  color: #000;
-}
-
-span.me {
-  color: rgb(255,87,0);
-  font-weight: bold;
-}
-
-/* -- end logo --- */
-/* --- start nav --- */
-
-.navbar-default {
-  background-color: #fff;
-  height: 40px;
-}
-
-.nav {
-  font-family: helvetica-neue-thin, sans-serif;
-  font-size: 15px;
-  text-transform: uppercase;
-  text-align: center;
-  display: inline-block;
-  float: none;
-}
-
-li.tabs {
-  padding-left: 10px;
-  padding-right: 10px;
-}
-
-a.navtab {
-  font-size: 15px;
-  color: rgb(162, 174, 191) !important;
-  margin: -5px 0 -5px 0;
-  position: absolute;
-}
-
-.navbar-brand {
-  margin: -5px 0 -5px 0;
-  position: absolute;
-}
-
-.navbar-brand {
-  font-size: 18px;
-}
-
-#top-nav.affix {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  z-index:10;
-}
-
-/* --- end navbar --- */
 /* --- start carousel --- */
 
 .carousel-inner,
@@ -439,8 +451,8 @@ span.join-coffee {
 /* --- start Instagram --- */
 
 .instagram {
- width: 95%;
- margin: 70px 0 70px 0;
+  width: 95%;
+  margin: 70px 0 80px 0;
 }
 
 h1.instagram {
@@ -456,68 +468,33 @@ p.instagram {
 .ig-pic {
   width: 200px;
   height: 200px;
-  margin: 20px;
 }
 
-/*.ig-text {*/
-  /*opacity: 1;*/
-  /*z-index: 0;*/
-/*}*/
+.card {
+  margin: 20px 0;
+}
 
-/*.igpic1,*/
-/*.igpic2,*/
-/*.igpic3,*/
-/*.igpic4,*/
-/*.igpic5 {*/
-  /*text-align: center;*/
-  /*display: none;*/
-  /*position: absolute;*/
-  /*width: 200px;*/
-  /*height: 200px;*/
-  /*margin: 20px;*/
-  /*z-index: 2;*/
-  /*color: #fff;*/
-/*}*/
+.image {
+  width: 200px;
+  height: 200px;
+}
 
-/*.igpic1 {*/
-  /*background-color: #000;*/
-  /*opacity: 0.5;*/
-  /*background-size: 200px 200px;*/
-  /*position: absolute;*/
-  /*z-index: -0;*/
-/*}*/
+.ig-text {
+  font-size: 24px;
+}
 
-/*.igpic2 {*/
-  /*background-color: #000;*/
-  /*opacity: 0.5;*/
-  /*background-size: 200px 200px;*/
-  /*position: absolute;*/
-  /*z-index: -0;*/
-/*}*/
+.ig-user-button {
+  background-color: transparent;
+  border: 0;
+}
 
-/*.igpic3 {*/
-  /*background-color: #000;*/
-  /*opacity: 0.5;*/
-  /*background-size: 200px 200px;*/
-  /*position: absolute;*/
-  /*z-index: -0;*/
-/*}*/
-
-/*.igpic4 {*/
-  /*background-color: #000;*/
-  /*opacity: 0.5;*/
-  /*background-size: 200px 200px;*/
-  /*position: absolute;*/
-  /*z-index: -0;*/
-/*}*/
-
-/*.igpic5 {*/
-  /*background-color: #000;*/
-  /*opacity: 0.5;*/
-  /*background-size: 200px 200px;*/
-  /*position: absolute;*/
-  /*z-index: -0;*/
-/*}*/
+.ig-user-icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 0;
+  margin: 10px;
+}
 
 .ig-button {
   color: #fff;
@@ -535,14 +512,6 @@ p.instagram {
   margin: 0;
   padding: 0;
 }
-
-/*.igpic-icon {*/
-  /*width: 40px;*/
-  /*height: 40px;*/
-  /*border-radius: 50%;*/
-  /*border: 0;*/
-  /*margin: 5px;*/
-/*}*/
 
 /* --- end Instagram --- */
 /* --- start footer --- */
@@ -565,3 +534,488 @@ p.instagram {
 }
 
 /* --- end footer --- */
+/* ---------- END HOME PAGE ---------- */
+/* ---------- START CREATE YOUR COFFEE PAGE ---------- */
+
+.create-cover {
+  position: relative;
+  overflow: hidden;
+  height: 225px;
+  width: 100%;
+}
+
+.create-cover h1 {
+  color: #fff;
+  position: relative;
+  z-index: 2;
+  opacity: 1;
+  margin: 5% 0 5% 0;
+  text-shadow: 1px 1px 1px #474747,
+               5px 5px 7px #606060;
+}
+
+img.create-cover-img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: auto;
+}
+
+/* ---------- END CREATE YOUR COFFEE PAGE ---------- */
+/* ---------- START DISCOVER PAGE ---------- */
+
+.discover-cover {
+  position: relative;
+  overflow: hidden;
+  height: 225px;
+  width: 100%;
+}
+
+.discover-cover h1 {
+  color: #fff;
+  position: relative;
+  z-index: 2;
+  opacity: 1;
+  margin: 5% 0 5% 0;
+  text-shadow: 1px 1px 1px #474747,
+               5px 5px 7px #606060;
+}
+
+img.discover-cover-img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: auto;
+}
+
+/* ---------- END DISCOVER PAGE ---------- */
+/* ---------- START PRODUCTS PAGE ---------- */
+
+.products-cover {
+  position: relative;
+  overflow: hidden;
+  height: 225px;
+  width: 100%;
+  margin: 0;
+}
+
+.products-cover h1 {
+  color: #fff;
+  position: relative;
+  z-index: 2;
+  opacity: 1;
+  margin: 2.5% 0 0 0;
+  text-shadow: 1px 1px 1px #474747,
+               5px 5px 7px #606060;
+}
+
+img.products-cover-img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+
+.products-page {
+  width: 90%;
+  margin: 30px 0 30px 0;
+}
+
+.products-button {
+  font-size: 24px;
+  color: #fff;
+  background-color: transparent;
+  padding: 10px;
+  border: 2px solid #fff;
+  position: relative;
+  z-index: 2;
+  opacity: 1;
+  margin: 15px 20px 0 20px;
+  text-shadow: 1px 1px 1px #474747,
+               5px 5px 7px #606060;
+}
+
+button.coffee {
+  padding: 10px 33px;
+}
+
+@media (max-width: 800px) {
+  .products-cover {
+    height: 200px;
+  }
+}
+
+@media (max-width: 700px) {
+  .products-cover {
+    height: 170px;
+  }
+}
+
+@media (max-width: 600px) {
+  .products-cover {
+    height: 150px;
+  }
+}
+
+@media (max-width: 510px) {
+  .products-cover {
+    height: 130px;
+  }
+}
+
+@media (max-width: 415px) {
+  .products-cover {
+    height: 100px;
+  }
+}
+
+@media (max-width: 566px) {
+  .products-cover h1 {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 480px) {
+  .products-button {
+    margin: 0 20px 0 20px;
+  }
+}
+
+@media (max-width: 430px) {
+  .products-cover h1 {
+    margin: 0.5% 0 0 0;
+  }
+}
+
+.coffee-summary {
+  width: 60%;
+  margin: 0;
+}
+
+.products-coffee {
+  margin: 45px 0 45px 0;
+}
+
+.products-images {
+  width: 250px;
+  height:250px;
+  border-radius: 50%;
+  border: 0;
+}
+
+span.location {
+  color: rgb(255,87,0);
+}
+
+.hashtag {
+  color: rgb(255,87,0);
+}
+
+.bottom-sentence {
+  width: 60%;
+  margin: 40px 0 0 0;
+}
+
+a.create-link {
+  color: rgb(255,87,0) !important;
+}
+
+/* --- start info toggle --- */
+
+h2.products-title {
+  margin: 20px 0 0 0;
+}
+
+#ey-button {
+  background: transparent;
+  border: 0;
+}
+
+.ey-info {
+  display: none;
+}
+
+#crt-button {
+  background: transparent;
+  border: 0;
+}
+
+.crt-info {
+  display: none;
+}
+
+#mha-button {
+  background: transparent;
+  border: 0;
+}
+
+.mha-info {
+  display: none;
+}
+
+#bfc-button {
+  background: transparent;
+  border: 0;
+}
+
+.bfc-info {
+  display: none;
+}
+
+#nmm-button {
+  background: transparent;
+  border: 0;
+}
+
+.nmm-info {
+  display: none;
+}
+
+#rdk-button {
+  background: transparent;
+  border: 0;
+}
+
+.rdk-info {
+  display: none;
+}
+
+#tm-button {
+  background: transparent;
+  border: 0;
+}
+
+.tm-info {
+  display: none;
+}
+
+#byc-button {
+  background: transparent;
+  border: 0;
+}
+
+.byc-info {
+  display: none;
+}
+
+#essm-button {
+  background: transparent;
+  border: 0;
+}
+
+.essm-info {
+  display: none;
+}
+
+#glv-button {
+  background: transparent;
+  border: 0;
+}
+
+.glv-info {
+  display: none;
+}
+
+#es-button {
+  background: transparent;
+  border: 0;
+}
+
+.es-info {
+  display: none;
+}
+
+#bb-button {
+  background: transparent;
+  border: 0;
+}
+
+.bb-info {
+  display: none;
+}
+
+#mc-button {
+  background: transparent;
+  border: 0;
+}
+
+.mc-info {
+  display: none;
+}
+
+#co-button {
+  background: transparent;
+  border: 0;
+}
+
+.co-info {
+  display: none;
+}
+
+#crtu-button {
+  background: transparent;
+  border: 0;
+}
+
+.crtu-info {
+  display: none;
+}
+
+#ek-button {
+  background: transparent;
+  border: 0;
+}
+
+.ek-info {
+  display: none;
+}
+
+#hsv-button {
+  background: transparent;
+  border: 0;
+}
+
+.hsv-info {
+  display: none;
+}
+
+#uk-button {
+  background: transparent;
+  border: 0;
+}
+
+.uk-info {
+  display: none;
+}
+
+#rg-button {
+  background: transparent;
+  border: 0;
+}
+
+.rg-info {
+  display: none;
+}
+
+#bba-button {
+  background: transparent;
+  border: 0;
+}
+
+.bba-info {
+  display: none;
+}
+
+#cs-button {
+  background: transparent;
+  border: 0;
+}
+
+.cs-info {
+  display: none;
+}
+
+#hnh-button {
+  background: transparent;
+  border: 0;
+}
+
+.hnh-info {
+  display: none;
+}
+
+#dbs-button {
+  background: transparent;
+  border: 0;
+}
+
+.dbs-info {
+  display: none;
+}
+
+#lbs-button {
+  background: transparent;
+  border: 0;
+}
+
+.lbs-info {
+  display: none;
+}
+
+#rh-button {
+  background: transparent;
+  border: 0;
+}
+
+.rh-info {
+  display: none;
+}
+
+#sc-button {
+  background: transparent;
+  border: 0;
+}
+
+.sc-info {
+  display: none;
+}
+
+/* --- end info toggle --- */
+/* --------- START SWEETENER PAGE ---------- */
+
+.open {
+  margin: 0;
+  padding: 0;
+}
+
+button.add-button {
+  color: #fff;
+  font-size: 25px;
+  background-color: rgb(255,87,0);
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  border: 0;
+}
+
+.details-button {
+  color: #fff;
+  font-size: 24px;
+  background-color: transparent;
+  border: none;
+}
+
+
+/* --------- END SWEETENER PAGE ---------- */
+/* ---------- END PRODUCTS PAGE ---------- */
+/* ---------- START ABOUT US PAGE ---------- */
+
+.about-us-cover {
+  position: relative;
+  overflow: hidden;
+  height: 225px;
+  width: 100%;
+}
+
+.about-us-cover h1 {
+  color: #fff;
+  position: relative;
+  z-index: 2;
+  opacity: 1;
+  margin: 5% 0 5% 0;
+  text-shadow: 1px 1px 1px #474747,
+               5px 5px 7px #606060;
+}
+
+img.about-us-cover-img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: auto;
+}
+
+/* ---------- END ABOUT US PAGE ---------- */
+
