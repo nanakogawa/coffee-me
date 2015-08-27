@@ -22,12 +22,14 @@ h1 {
   font-size: 50px;
   color: #000;
   font-weight: bold;
+  letter-spacing: 1px;
 }
 
 h2 {
   font-size: 37px;
   color: #000;
   font-weight: bold;
+  letter-spacing: 1px;
 }
 
 h3 {
@@ -73,7 +75,7 @@ span.modal-text {
 /* --- start logo --- */
 
 h4.logo {
-  margin: 12px 0 -7px 0;
+  margin: 12px 0 -6px 0;
 }
 
 span.me {
@@ -259,6 +261,31 @@ h3.forgot-p-header {
 }
 
 /* --- end 'Sign Up' --- */
+
+/* --- start THANK YOU --- */
+
+.thank-you-modal {
+  width: 460px;
+  height: 460px;
+  background-color: #fff;
+  text-align: center;
+  border-radius: 50%;
+  border: 15px solid rgb(255,87,0);
+  padding: 80px 0 80px 0;
+}
+
+.close-button {
+  color: #fff;
+  width: 65px;
+  height:65px;
+  border-radius: 50%;
+  background-color: rgb(255, 87, 0);
+  padding: 2px;
+  border: 0;
+  margin: 15px 5px 5px 5px;
+}
+
+/* --- end THANK YOU --- */
 /* --- start carousel --- */
 
 .carousel-inner,
@@ -519,7 +546,8 @@ p.instagram {
 /* --- end Instagram --- */
 /* --- start footer --- */
 
-.footer {
+.footer,
+.footer-create {
   height: 330px;
   background-color: rgb(255,87,0);
   color: #fff;
@@ -540,30 +568,219 @@ p.instagram {
 /* ---------- END HOME PAGE ---------- */
 /* ---------- START CREATE YOUR COFFEE PAGE ---------- */
 
-.create-cover {
-  position: relative;
-  overflow: hidden;
-  height: 225px;
-  width: 100%;
+.step-1-parallax,
+.step-1,
+.step-2-light,
+.step-2-medium,
+.step-2-dark,
+.step-3,
+.step-3-parallax,
+.step-4,
+.step-4-parallax,
+.step-5,
+.step-6,
+.footer-create {
+  display: none;
 }
 
-.create-cover h1 {
+h1.orange {
+  color: rgb(255,87,0);
+}
+
+h1.do-this {
   color: #fff;
-  position: relative;
-  z-index: 2;
-  opacity: 1;
-  margin: 5% 0 5% 0;
-  text-shadow: 1px 1px 1px #474747,
-               5px 5px 7px #606060;
+  margin: 40px 0 0 0;
 }
 
-img.create-cover-img {
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: auto;
+span.description {
+  font-size: 16px;
 }
+
+h3.bold {
+  font-weight: bold;
+}
+
+button.start {
+  color: #fff;
+  background-color: transparent;
+  font-size: 30px;
+  font-weight: bold;
+  width: 120px;
+  height: 120px;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  margin: 225px 0 0 0;
+}
+
+.dot {
+  background-color: #fff;
+  border-radius: 50%;
+  border: 0;
+  width: 4px;
+  height: 4px;
+  margin: 20px;
+}
+
+span.one {
+  font-size: 70px;
+  color: #fff;
+  background-color: rgb(255,87,0);
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  border: 0;
+  padding: 20px 30px;
+}
+
+button.roast1 {
+  background: url('images/lightroast.jpg') no-repeat center center;
+  background-color: #fff;
+  width: 250px;
+  height: 250px;
+  border: 5px dashed rgb(255,87,0);
+  border-radius: 50%;
+  margin: 40px 0 0 0;
+}
+
+button.roast2 {
+  background: url('images/mediumroast.jpg') no-repeat center center;
+  background-color: #fff;
+  width: 250px;
+  height: 250px;
+  border: 5px dashed rgb(255,87,0);
+  border-radius: 50%;
+  margin: 40px 0 0 0;
+}
+
+button.roast3 {
+  background: url('images/darkroast.jpg') no-repeat center center;
+  background-color: #fff;
+  width: 250px;
+  height: 250px;
+  border: 5px dashed rgb(255,87,0);
+  border-radius: 50%;
+  margin: 40px 0 0 0;
+}
+
+#light-button,
+#medium-button,
+#dark-button {
+  background-color: transparent;
+  border: 0;
+  margin: 0;
+}
+
+.light-info,
+.medium-info,
+.dark-info {
+  display: none
+}
+
+span.two {
+  font-size: 70px;
+  color: #fff;
+  background-color: rgb(255,87,0);
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  border: 0;
+  padding: 20px 30px;
+}
+
+.step2-coffee {
+  margin: 40px 0;
+}
+
+.step2-images {
+  width: 200px;
+  height:200px;
+  border-radius: 50%;
+  border: 0;
+  margin: 0;
+}
+
+.step-3 {
+  width: 100%;
+}
+
+span.three {
+  font-size: 70px;
+  color: #fff;
+  background-color: rgb(255,87,0);
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  border: 0;
+  padding: 20px 30px;
+  margin: 20px 0;
+}
+
+.step3-images {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 0;
+  margin: 30px 10px 30px 30px;
+}
+
+span.trans {
+  color: transparent !important;
+  background-color: transparent !important;
+}
+
+.step-3-icon {
+  margin: 10px;
+}
+
+.white-space {
+  height: 400px;
+}
+
+.step-6-size {
+  margin: 120px 100px 0 100px;
+  color: rgb(255,87,0);
+  background-color: #fff;
+  border-radius: 50%;
+  border: 4px solid rgb(255,87,0);
+}
+
+.step-sampler-button {
+  width: 120px;
+  height: 120px;
+}
+
+.step-small-button {
+  width: 140px;
+  height: 140px;
+}
+
+.step-medium-button {
+  width: 160px;
+  height: 160px;
+}
+
+.step-large-button {
+  width: 180px;
+  height: 180px;
+}
+
+.add-to-cart,
+.make-another {
+  width: 200px;
+  height: 50px;
+  background-color: #fff;
+  color: rgb(255,87,0) !important;
+  border-radius: 15px;
+  border: 1px solid rgb(255,87,0);
+  text-decoration: none !important;
+  margin: 200px 100px;
+}
+
+.make-another-link {
+  text-decoration: none !important;
+  color: rgb(255,87,0) !important;
+}
+
 
 /* ---------- END CREATE YOUR COFFEE PAGE ---------- */
 /* ---------- START DISCOVER PAGE ---------- */

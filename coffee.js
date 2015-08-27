@@ -33,12 +33,82 @@ $('.myModal-sign-up').click(function() {
   $('#sign-up').modal('show');
 });
 
-//Instagram hover
+// 'Thank You' modal
+$('.thank-you-button').click(function() {
+  $('#thank-you').modal('show');
+});
+
+$('.thank-you-button').click(function() {
+  $('#thank-you').modal('show');
+});
+
+// Instagram hover
 $('.special.cards .image').dimmer({
   on: 'hover'
 });
 
-//Products modal
+// Create Your Coffee toggle
+$('#start-button').click(function() {
+  $('.step-1').toggleClass('show');
+});
+
+$('#start-button').click(function() {
+  $('.step-1-parallax').toggleClass('show');
+});
+
+$('#light-button').click(function() {
+  $('.light-info').toggleClass('show');
+});
+
+$('#roast1').click(function() {
+  $('.step-2-light').toggleClass('show');
+});
+
+$('#medium-button').click(function() {
+  $('.medium-info').toggleClass('show');
+});
+
+$('#roast2').click(function() {
+  $('.step-2-medium').toggleClass('show');
+});
+
+$('#dark-button').click(function() {
+  $('.dark-info').toggleClass('show');
+});
+
+$('#roast3').click(function() {
+  $('.step-2-dark').toggleClass('show');
+});
+
+$('.step-2-check').click(function() {
+  $('.step-3').css('display', 'block');
+});
+
+$('.step-2-check').click(function() {
+  $('.step-3-parallax').css('display', 'block');
+});
+
+$('.step-3-check').click(function() {
+  $('.step-4').css('display', 'block');
+});
+
+$('.step-3-check').click(function() {
+  $('.step-4-parallax').css('display', 'block');
+});
+
+$('.step-4-check').click(function() {
+  $('.step-5').css('display', 'block');
+});
+
+$('.step-5-check').click(function() {
+  $('.step-6').css('display', 'block');
+});
+
+$('.step-5-check').click(function() {
+  $('.footer-create').css('display', 'block');
+});
+
+// Products modal
 $('.add-button').on('click', function() {
   $('#add-button-modal').modal('show');
   var product = $(this).attr('product-name');

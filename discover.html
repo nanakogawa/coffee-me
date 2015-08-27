@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CoffeeME Discovery Page</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" media="all">
+    <link rel="stylesheet" href="semantic.css">
+    <link rel="stylesheet" href="parallax.css">
+    <link rel="stylesheet" href="default.css">
+  </head>
+  <body>
+    <center>
+      <a href="index.html" class="logo-link"><h4 class="logo">Coffee<span class="me">ME</span></h4></a>
+      <div id="top-nav">
+        <nav class="navbar-default navbar-static" role="navigation">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand collapse" href="index.html"><span class="coffee">Coffee</span><span class="me">ME</span></a>
+          </div>
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="#" class="navtab" id="myModal-log-in">Log In</a></li>
+            </ul>
+            <ul class="nav navbar-nav">
+              <li class="tabs"><a href="create.html" class="navtab">Create Your Coffee</a></li>
+              <li class="tabs"><a href="discover.html" class="navtab">Discover</a></li>
+              <li class="tabs"><a href="products.html" class="navtab">Products</a></li>
+              <li class="tabs"><a href="about-us.html" class="navtab">About Us</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+      <!-- start 'Log In' modal -->
+      <div class="modal fade" id="log-in" tabindex="-1" role="dialog">
+        <div class="modal-dialog modal-lg" role="document">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <div class="log-in-modal">
+            <div class="col-md-12">
+              <h3 class="log-in-logo">Coffee<span class="me">ME</span></h3>
+            </div>
+            <div class="col-md-12">
+              <input type="text" name="email" placeholder="E-Mail Address" />
+            </div>
+            <div class="col-md-12">
+              <input type="text" name="password" placeholder="Password" />
+            </div>
+            <div class="col-md-12">
+              <input class="check-box" type="checkbox" name="service" value="agreement" checked="checked"/>
+                <span class="modal-text">Remember Me · <a href="#" id="myModal-forgot-p">Forgot Password?</a></span>
+            </div>
+            <div class="col-md-12">
+              <button type="button" data-dismiss="modal" class="log-in-button">Log In</button>
+            </div>
+            <div class="col-md-12">
+              <span class="modal-text">Don't have an account? <a href="#" class="myModal-sign-up sign-up">Sign Up</a></span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- end 'Log In' modal -->
+      <!-- start 'Forgot Password' modal -->
+      <div class="modal fade" id="forgot-p" tabindex="-1" role="dialog">
+        <div class="modal-dialog modal-lg" role="document">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <div class="forgot-p-modal">
+            <div class="col-md-12">
+              <h3 class="forgot-p-header">Forgot Password?</h3>
+            </div>
+            <div class="col-md-12">
+              <span class="modal-text">E-Mail Address:</span>
+            </div>
+            <div class="col-md-12">
+              <input type="text" name="email" placeholder="E-Mail Address" />
+            </div>
+            <div class="col-md-12">
+              <img src="images/security.png" class="security" />
+            </div>
+            <div class="col-md-12">
+              <span class="modal-text">Type the words above:</span>
+            </div>
+            <div class="col-md-12">
+              <input type="text" name="security" placeholder="Type Here" />
+            </div>
+            <div class="col-md-12">
+              <button type="button" data-dismiss="modal" class="forgot-p-button">Reset</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- end 'Forgot Password' modal -->
+      <!-- start 'Sign In' modal -->
+      <div class="modal fade" id="sign-up" tabindex="-1" role="dialog">
+        <div class="modal-dialog modal-lg" role="document">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <div class="sign-up-modal">
+            <div class="col-md-12">
+              <h3 class="log-in-logo">Coffee<span class="me">ME</span></h3>
+            </div>
+            <div class="col-md-12">
+              <span class="modal-text">First Name:</span>
+            </div>
+            <div class="col-md-12">
+              <input type="text" name="fname" placeholder="First Name" />
+            </div>
+            <div class="col-md-12">
+              <span class="modal-text">Last Name:</span>
+            </div>
+            <div class="col-md-12">
+              <input type="text" name="lname" placeholder="Last Name" />
+            </div>
+            <div class="col-md-12">
+              <span class="modal-text">E-Mail Anddress:</span>
+            </div>
+            <div class="col-md-12">
+              <input type="text" name="email" placeholder="E-Mail Address" />
+            </div>
+            <div class="col-md-12">
+              <span class="modal-text">Password:</span>
+            </div>
+            <div class="col-md-12">
+              <input type="text" name="password" placeholder="Password" />
+            </div>
+            <div class="col-md-12">
+              <span class="modal-text">Re-Type Password::</span>
+            </div>
+            <div class="col-md-12">
+              <input type="text" name="retype-password" placeholder="Re-Type Password" />
+            </div>
+            <div class="col-md-12">
+              <button type="button" data-dismiss="modal" class="sign-up-button">Sign Up</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- end 'Sign In' modal -->
+      <div class="discover-cover">
+        <h1>Discover</h1>
+        <img src="images/discover-cover.jpg" class="discover-cover-img" />
+      </div>
+      <div class="div1"></div>
+      <section class="bg-1 text-center">
+        <h1>Bootstrap Parallax</h1>
+        <p class="lead">Add Some Motion</p>
+      </section>
+      <div class="footer">
+        <div class="container">
+          <div class="row">
+            <img src="images/facebook.png" class="footer-icons"/>
+            <img src="images/twitter.png" class="footer-icons" />
+            <img src="images/instagram.png" class="footer-icons" />
+          </div>
+        </div>
+      </div>
+    </center>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="semantic.js"></script>
+    <script src="parallax.js"></script>
+    <script src="coffee.js"></script>
+
+
+  </body>
+</html>
