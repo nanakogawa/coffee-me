@@ -3,8 +3,9 @@ Website for people who wants to create their own coffee
 <p>Create Your Coffee
   <ul>
     <li>Roast (Light, Medium, Dark)</li>
-    <li>Base beans (1-3 Combonations)</li>
-    <li>Grind (French Press, Standard Drip, Espresso, Whole Beans)</li>
+    <li>Base beans</li>
+    <li>Enhancement</li>
+    <li>Gruits</li>
     <li>Sweetners (White Sugar, Brown Sugar, Cream)</li>
     <li>Size (Sampler, Small, Medium, Large)</li>
   </ul>
@@ -20,7 +21,6 @@ Website for people who wants to create their own coffee
   <ul>
     <li>Guide (Ultimate key for customers to pick the right choices)</li>
     <ul>
-      <li>How It Works</li>
       <li>Do's & Don'ts</li>
       <li>New To Coffee? (Which is the best roast for you</li>
     </ul>
