@@ -7,7 +7,7 @@ Website for people who wants to create their own coffee
     <li>Enhancement</li>
     <li>Fruits</li>
     <li>Sweetners</li>
-    <li>Size (Sampler, Small, Medium, Large)</li>
+    <li>Size</li>
   </ul>
 </p>
 <p>Discover
