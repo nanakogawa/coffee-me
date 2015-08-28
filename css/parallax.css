@@ -1,0 +1,139 @@
+.divider {
+    height:50px;
+}
+
+section {
+    height:500px;
+    padding-top:50px;
+    padding-bottom:50px;
+    overflow:auto;
+}
+
+/* ---------- start 'Create Your Coffee' ---------- */
+
+.step-start {
+  background-image: url('../images/orange-gradient%20copy.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #fff;
+  width: 100%;
+  height: 1000px;
+}
+
+section.step-1-parallax {
+  background: url('../images/carousel-1.jpg') no-repeat center center fixed;
+  background-size: cover;
+  width: 100%;
+  height: 200px;
+}
+
+section.step-3-parallax {
+  background: url('../images/choco.jpg') no-repeat center center fixed;
+  background-size: cover;
+  width: 100%;
+  height: 200px;
+}
+
+section.step-4-parallax {
+  background: url('../images/fruit-salad.jpg') no-repeat center center fixed;
+  background-size: cover;
+  width: 100%;
+  height: 300px;
+}
+
+.step-1 {
+  width: 1330px;
+  height: 600px;
+  background-color: #fff;
+  padding: 20px 0 40px 0;
+}
+
+.step-2-light {
+  width: 1330px;
+  height: 1100px;
+  background-color: #fff;
+  padding: 20px 0 0 0;
+}
+
+.step-2-dark {
+  width: 1330px;
+  height: 1100px;
+  background-color: #fff;
+  padding: 20px 0 0 0;
+}
+
+.step-2-medium {
+  width: 1330px;
+  height: 1100px;
+  background-color: #fff;
+  padding: 20px 0 0 0;
+}
+.step-3 {
+  width: 1330px;
+  height: 780px;
+  background-color: #fff;
+}
+
+.step-4 {
+  width: 1330px;
+  height: 820px;
+  background-color: #ffffff;
+}
+
+.step-5 {
+  width: 1330px;
+  height: 1000px;
+  background-color: #ffffff;
+}
+
+.step-6 {
+  background-image: url('../images/orange-gradient.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 950px;
+}
+
+
+/* ---------- end 'Create Your Coffee' ---------- */
+/* ---------- start 'Discover'' ---------- */
+
+section.discover-top {
+  background: url('../images/carousel-2.jpg') no-repeat center center fixed;
+  background-size: cover;
+  width: 100%;
+  height: 500px;
+}
+
+section.discover-middle {
+  background-color: rgb(255,87,0);
+  background-size: cover;
+  width: 100%;
+  height: 500px;
+}
+
+section.discover-bottom {
+  background: url('../images/carousel-2.jpg') no-repeat center center fixed;
+  background-size: cover;
+  width: 100%;
+  height: 500px;
+}
+
+/* ---------- end 'Discover' ---------- */
+/* ---------- star 'About Us' ---------- */
+
+section.about-us-top {
+  background: url('../images/coffee15.jpg') no-repeat center center fixed;
+  background-size: cover;
+  width: 100%;
+  height: 750px;
+}
+
+section.about-us-bottom {
+  background: url('../images/coffee15.jpg') no-repeat center center fixed;
+  background-size: cover;
+  width: 100%;
+  height: 300px;
+}
+
+/* ---------- end 'About Us' ---------- */

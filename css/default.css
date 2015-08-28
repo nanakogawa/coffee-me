@@ -1,16 +1,11 @@
 @font-face {
   font-family: 'helvetica-neue-thin';
-  src: url('fonts/helvetica-neue-thin.otf');
+  src: url('../fonts/helvetica-neue-thin.otf');
 }
 
 @font-face {
   font-family: 'helvetica-neue-ultra-thin2';
-  src: url('fonts/helvetica-neue-ultra-thin2.otf');
-}
-
-@font-face {
-  font-family: 'helvetica-light';
-  src: url('fonts/helvetica-light.ttf');
+  src: url('../fonts/helvetica-neue-ultra-thin2.otf');
 }
 
 body {
@@ -438,7 +433,7 @@ h1.hiw {
 /* ---start "Join Us" --- */
 
 .join {
-  background-image: url('images/join.jpeg');
+  background-image: url('../images/join.jpeg');
   background-size: cover;
   background-repeat: no-repeat;
   height: 800px;
@@ -572,18 +567,7 @@ p.instagram {
 /* ---------- END HOME PAGE ---------- */
 /* ---------- START CREATE YOUR COFFEE PAGE ---------- */
 
-.step-1-parallax,
-.step-1,
-.step-2-light,
-.step-2-medium,
-.step-2-dark,
-.step-3,
-.step-3-parallax,
-.step-4,
-.step-4-parallax,
-.step-5,
-.step-6,
-.footer-create {
+.create-steps {
   display: none;
 }
 
@@ -637,7 +621,7 @@ span.one {
 }
 
 button.roast1 {
-  background: url('images/lightroast.jpg') no-repeat center center;
+  background: url('../images/lightroast.jpg') no-repeat center center;
   background-color: #fff;
   width: 250px;
   height: 250px;
@@ -647,7 +631,7 @@ button.roast1 {
 }
 
 button.roast2 {
-  background: url('images/mediumroast.jpg') no-repeat center center;
+  background: url('../images/mediumroast.jpg') no-repeat center center;
   background-color: #fff;
   width: 250px;
   height: 250px;
@@ -657,7 +641,7 @@ button.roast2 {
 }
 
 button.roast3 {
-  background: url('images/darkroast.jpg') no-repeat center center;
+  background: url('../images/darkroast.jpg') no-repeat center center;
   background-color: #fff;
   width: 250px;
   height: 250px;
@@ -1003,62 +987,12 @@ h2.products-title {
   margin: 20px 0 0 0;
 }
 
-#ey-button,
-#crt-button,
-#mha-button,
-#bfc-button,
-#nmm-button,
-#rdk-button,
-#tm-button,
-#byc-button,
-#essm-button,
-#glv-button,
-#es-button,
-#bb-button,
-#mc-button,
-#co-button,
-#crtu-button,
-#ek-button,
-#hsv-button,
-#uk-button,
-#rg-button,
-#bba-button,
-#cs-button,
-#hnh-button,
-#dbs-button,
-#lbs-button,
-#rh-button,
-#sc-button {
+.info-button {
   background: transparent;
   border: 0;
 }
 
-.ey-info,
-.crt-info,
-.mha-info,
-.bfc-info,
-.nmm-info,
-.rdk-info,
-.tm-info,
-.byc-info,
-.essm-info,
-.glv-info,
-.es-info,
-.bb-info,
-.mc-info,
-.co-info,
-.crtu-info,
-.ek-info,
-.hsv-info,
-.uk-info,
-.rg-info,
-.bba-info,
-.cs-info,
-.hnh-info,
-.dbs-info,
-.lbs-info,
-.rh-info,
-.sc-info {
+.product-info {
   display: none;
 }
 
