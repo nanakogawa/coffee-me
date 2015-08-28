@@ -312,94 +312,6 @@ p.carousel-text {
   padding: 10px 20px 10px 20px;
 }
 
-@media (max-width: 1000px) {
-  .carousel-caption {
-    bottom: 16%;
-  }
-}
-
-@media (max-width: 850px) {
-  .carousel-caption {
-    bottom: 10%;
-  }
-}
-
-@media (max-width: 750px) {
-  .carousel-caption {
-    bottom: 9%;
-  }
-}
-
-@media (max-width: 720px) {
-  .carousel-caption {
-    bottom: 10%;
-  }
-  h1.carousel-title {
-    font-size: 45px;
-  }
-  .carousel-button {
-    font-size: 27px;
-    margin: 54px 0;
-    padding: 6px 15px 6px 15px;
-  }
-  p.carousel-text {
-    font-size: 22px;
-  }
-}
-
-@media (max-width: 640px) {
-  .carousel-caption {
-    bottom: 9%;
-  }
-  h1.carousel-title {
-    font-size: 40px;
-  }
-   .carousel-button {
-    font-size: 20px;
-    margin: 40px 0;
-    padding: 6px 12px 6px 12px;
-  }
-  p.carousel-text {
-    font-size: 20px;
-  }
-}
-
-@media (max-width: 540px) {
-  .carousel-caption {
-    bottom: 15%;
-  }
-  h1.carousel-title {
-    font-size: 35px;
-  }
-   .carousel-button {
-    font-size: 18px;
-    margin: 25px 0;
-    padding: 5px 10px 5px 10px;
-  }
-  p.carousel-text {
-    font-size: 18px;
-    margin: 0;
-  }
-}
-
-@media (max-width: 450px) {
-  .carousel-caption {
-    bottom: 10%;
-  }
-  h1.carousel-title {
-    font-size: 35px;
-  }
-   .carousel-button {
-    font-size: 18px;
-    margin: 10px 0;
-    padding: 5px 10px 5px 10px;
-  }
-  p.carousel-text {
-    font-size: 16px;
-    margin: 0;
-  }
-}
-
 /* --- end carousel --- */
 /* --- start "How It Works" */
 
@@ -534,6 +446,11 @@ p.instagram {
   height: 40px;
   margin: 0;
   padding: 0;
+}
+
+a.ig-link {
+  color: #fff;
+  text-decoration: none;
 }
 
 /* --- end Instagram --- */
@@ -900,54 +817,6 @@ button.coffee {
   padding: 10px 33px;
 }
 
-@media (max-width: 800px) {
-  .products-cover {
-    height: 200px;
-  }
-}
-
-@media (max-width: 700px) {
-  .products-cover {
-    height: 170px;
-  }
-}
-
-@media (max-width: 600px) {
-  .products-cover {
-    height: 150px;
-  }
-}
-
-@media (max-width: 510px) {
-  .products-cover {
-    height: 130px;
-  }
-}
-
-@media (max-width: 415px) {
-  .products-cover {
-    height: 100px;
-  }
-}
-
-@media (max-width: 566px) {
-  .products-cover h1 {
-    font-size: 30px;
-  }
-}
-
-@media (max-width: 480px) {
-  .products-button {
-    margin: 0 20px 0 20px;
-  }
-}
-
-@media (max-width: 430px) {
-  .products-cover h1 {
-    margin: 0.5% 0 0 0;
-  }
-}
-
 .coffee-summary {
   width: 60%;
   margin: 0;
@@ -1035,3 +904,139 @@ h1.about-us {
 
 /* ---------- END ABOUT US PAGE ---------- */
 
+
+@media (max-width: 1000px) {
+  .carousel-caption {
+    bottom: 16%;
+  }
+}
+
+@media (max-width: 850px) {
+  .carousel-caption {
+    bottom: 10%;
+  }
+}
+
+@media (max-width: 750px) {
+  .carousel-caption {
+    bottom: 9%;
+  }
+}
+
+@media (max-width: 720px) {
+  .carousel-caption {
+    bottom: 10%;
+  }
+  h1.carousel-title {
+    font-size: 45px;
+  }
+  .carousel-button {
+    font-size: 27px;
+    margin: 54px 0;
+    padding: 6px 15px 6px 15px;
+  }
+  p.carousel-text {
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 640px) {
+  .carousel-caption {
+    bottom: 9%;
+  }
+  h1.carousel-title {
+    font-size: 40px;
+  }
+   .carousel-button {
+    font-size: 20px;
+    margin: 40px 0;
+    padding: 6px 12px 6px 12px;
+  }
+  p.carousel-text {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 540px) {
+  .carousel-caption {
+    bottom: 15%;
+  }
+  h1.carousel-title {
+    font-size: 35px;
+  }
+   .carousel-button {
+    font-size: 18px;
+    margin: 25px 0;
+    padding: 5px 10px 5px 10px;
+  }
+  p.carousel-text {
+    font-size: 18px;
+    margin: 0;
+  }
+}
+
+@media (max-width: 450px) {
+  .carousel-caption {
+    bottom: 10%;
+  }
+  h1.carousel-title {
+    font-size: 35px;
+  }
+   .carousel-button {
+    font-size: 18px;
+    margin: 10px 0;
+    padding: 5px 10px 5px 10px;
+  }
+  p.carousel-text {
+    font-size: 16px;
+    margin: 0;
+  }
+}
+
+@media (max-width: 800px) {
+  .products-cover {
+    height: 200px;
+  }
+}
+
+@media (max-width: 700px) {
+  .products-cover {
+    height: 170px;
+  }
+}
+
+@media (max-width: 600px) {
+  .products-cover {
+    height: 150px;
+  }
+}
+
+@media (max-width: 510px) {
+  .products-cover {
+    height: 130px;
+  }
+}
+
+@media (max-width: 415px) {
+  .products-cover {
+    height: 100px;
+  }
+}
+
+@media (max-width: 566px) {
+  .products-cover h1 {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 480px) {
+  .products-button {
+    margin: 0 20px 0 20px;
+  }
+}
+
+@media (max-width: 430px) {
+  .products-cover h1 {
+    margin: 0.5% 0 0 0;
+  }
+}
