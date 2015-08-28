@@ -2,7 +2,7 @@
 Website for people who wants to create their own coffee
 <p>Create Your Coffee
   <ul>
-    <li>Roast (Light, Medium, Dark)</li>
+    <li>Roast</li>
     <li>Base beans</li>
     <li>Enhancement</li>
     <li>Fruits</li>
@@ -12,8 +12,8 @@ Website for people who wants to create their own coffee
 </p>
 <p>Discover
   <ul>
-    <li>Tips (Additional information to gain positive experience with customers)</li>
-    <li>Guide (Ultimate key for customers to pick the right choices)</li>
+    <li>Tips</li>
+    <li>Guide</li>
   </ul>
 </p>
 <p> Products
