@@ -9,7 +9,7 @@ Website for people who wants to create their own coffee
 
 ![sweetener products page](https://raw.githubusercontent.com/nanakogawa/coffee-me/master/images/screenshots/products-sweeteners.png)
 
-**Features**
+**Features:**
 Carousel, Modals, Parallax, Dimmer on hover with Semantic UI, Hide & Show content
 
 Modals
